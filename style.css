@@ -60,6 +60,16 @@ header, footer {
 .pdf-list li {
     list-style-type: none;
 }
+
 .pdf-list li:before{
     content: "";
+}
+
+h2:before {
+    display: inline-block;
+    content: '  ';
+    background-image: url('gear.svg');
+    background-size: 0.7em 0.7em;
+    height: 0.7em;
+    width: 0.7em;
 }
