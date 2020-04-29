@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap');
+
+body {
+    background-color:#f0f0f0;
+    margin: auto;
+    max-width: 25em;
+    line-height: 1.6em;
+    font-size: 1.2em;
+    color: #444;
+    font-family: 'Baloo Bhaina 2', cursive;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    line-height: 1.2em;
+}
+
+h1 {
+    color:white;
+    font-size: 2em;
+    border-top: #000000 2px solid;
+	border-left: #000000 2px solid;
+	border-right: #000000 2px solid;
+	border-bottom: #000000 2px solid;
+	padding: 0.2em;
+	max-width: 25em;
+	background-color: #17477a;
+}
+
+.tablehead {
+    font-size: 1.2em;
+    text-decoration-line: underline;
+    max-width: 12.5em;
+    padding: 1.2em;
+}
+
+.tabledata {
+    text-align: center;
+    padding: 0.2em;
+    border-bottom: #303030 2px dotted;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li:before{
+    font-size: 1.5em;
+    content: "\2023 \0020";
+}
+
+figure {
+	margin-left:9em;
+}
+
+header, footer {
+    text-align: center;
+}
