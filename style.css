@@ -56,3 +56,10 @@ figure {
 header, footer {
     text-align: center;
 }
+
+.pdf-list li {
+    list-style-type: none;
+}
+.pdf-list li:before{
+    content: "";
+}
